@@ -1,0 +1,37 @@
+{
+  "defaultAccounts": [
+    {
+      "firstname": "BB",
+      "lastname": "Admin",
+      "email": "admin@foo.com",
+      "password": "changeme",
+      "role": "admin"
+    },
+    {
+      "firstname": "sollie",
+      "lastname": "garcia",
+      "email": "sollie@foo.com",
+      "password": "changeme",
+      "role": "user"
+    },
+    {
+      "firstname": "leah",
+      "lastname": "vilanueva",
+      "email": "leah@foo.com",
+      "password": "changeme",
+      "role": "user"
+    }
+  ],
+
+  "defaultUserInfo": [
+    { "firstName": "Sollie", "lastName": "Garcia", "budget": 5, "owner": "sollie@foo.com", "password": "changeme" },
+    { "firstName": "Leah", "lastName": "Vilanueva", "budget": 5, "owner": "leah@foo.com", "password": "changeme" }
+  ],
+
+  "defaultExpenses": [
+    { "name": "Clothes", "amount": 1.00, "owner": "sollie@foo.com"},
+    { "name": "Food", "amount": 1.00, "owner": "leah@foo.com"},
+    { "name": "Clothes", "amount": 1.00, "owner": "leah@foo.com"}
+  ]
+
+}

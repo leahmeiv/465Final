@@ -1,0 +1,302 @@
+#body.ui.borderless.fixed.menu{
+  font-size: 20px;
+  z-index: auto;
+  margin-top: 38px;
+  border-top: none;
+}
+
+.logo.medium.item{
+  padding:0;
+}
+
+.ui.borderless.fixed.top.menu{
+  background-color: #222;
+  font-family: Helvetica, Arial, "sans-serif";
+  padding-bottom: 0;
+  padding-right: 150px;
+  margin-bottom: 0;
+  opacity: 98%;
+}
+
+.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text {
+  color: cadetblue;
+  font-weight: bolder;
+}
+
+/*remove dropdown arrow*/
+.ui.menu .dropdown.item i.icon {
+  opacity: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*menu items font color*/
+.ui.menu .item{
+  color: #888888 !important;
+}
+
+/*search bar color*/
+.ui.search .prompt {
+  border-radius: 14px;
+  background-color: #222222 !important;
+  font-family: Helvetica, Arial, "sans-serif";
+  color: #888888 !important;
+}
+
+/*search placeholder color*/
+.ui.search ::placeholder{
+  color: #888888 !important;
+}
+
+.ui.search .results{
+  background-color: #222222 ;
+  border: none;
+}
+
+
+.ui.search .results .message .header {
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 14px;
+  font-weight: normal;
+  color: #888888 !important;
+}
+
+
+/*search icon color*/
+.ui.icon.input>i.icon{
+  color: #888888 !important;
+}
+/*background color dropdown menu*/
+.ui.menu .dropdown.item .menu{
+  background-color: #222222;
+}
+
+/*dropdown item text color*/
+.ui.menu .ui.dropdown .menu .item{
+  color: #888888 !important;
+}
+
+
+body{
+  background-color: #222222 !important;
+  color: white !important;
+
+}
+
+/*from chrome dev tools*/
+.ui[class*="vertically divided"].grid>.row:first-child>.column {
+  padding-top: 15px;
+}
+
+.ui.link.list .item{
+  color: #999999 !important;
+}
+
+.ui.bottom.secondary.menu .item {
+  color: #888888 !important;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding-left: 300px;
+}
+
+/*about page*/
+#body.ui.borderless.fixed.menu{
+  font-size: 20px;
+  z-index: auto;
+  border-top: none;
+}
+
+.logo.medium.item{
+  padding:0;
+}
+
+.ui.borderless.fixed.top.menu{
+  background-color: #222;
+  font-family: Helvetica, Arial, "sans-serif";
+  padding-bottom: 0;
+  padding-right: 150px;
+  margin-bottom: 0;
+  opacity: 98%;
+}
+
+.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text {
+  color: cadetblue;
+  font-weight: bolder;
+}
+
+/*remove dropdown arrow*/
+.ui.menu .dropdown.item i.icon {
+  opacity: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*menu items font color*/
+.ui.menu .item{
+  color: #888888 !important;
+}
+
+/*search bar color*/
+.ui.search .prompt {
+  border-radius: 14px;
+  background-color: #222222 !important;
+  font-family: Helvetica, Arial, "sans-serif";
+  color: #888888 !important;
+}
+
+/*search placeholder color*/
+.ui.search ::placeholder{
+  color: #888888 !important;
+}
+
+.ui.search .results{
+  background-color: #222222 ;
+  border: none;
+}
+
+
+.ui.search .results .message .header {
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 14px;
+  font-weight: normal;
+  color: #888888 !important;
+}
+
+
+/*search icon color*/
+.ui.icon.input>i.icon{
+  color: #888888 !important;
+}
+/*background color dropdown menu*/
+.ui.menu .dropdown.item .menu{
+  background-color: #222222;
+}
+
+/*dropdown item text color*/
+.ui.menu .ui.dropdown .menu .item{
+  color: #888888 !important;
+}
+
+body{
+  background-color: #222222 !important;
+  color: white !important;
+
+}
+
+/*from chrome dev tools*/
+.ui[class*="vertically divided"].grid>.row:first-child>.column {
+  padding-top: 15px;
+}
+
+.ui.link.list .item{
+  color: #999999 !important;
+}
+
+.ui.bottom.secondary.menu .item {
+  color: #888888 !important;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding-left: 300px;
+}
+
+/*login page*/
+.login-bg {
+  background: #1d5c5a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,  #1d5c5a, #3aafa9, #badedc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1d5c5a, #3aafa9, #badedc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-size: cover !important;
+}
+
+.form-text {
+  font-family: Helvetica, Arial, "sans-serif";
+  color: #def2f1;
+  padding-bottom: 2px;
+}
+
+.ui.message > a:hover{
+  color: #badedc;
+}
+
+.ui.message > a{
+  color: #3aafa9;
+}
+
+
+.signup-bg {
+  background: #4b6cb7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.expenses-bg {
+  background: #5ebcae;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #366b75, #5ebcae);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #366b75, #5ebcae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.landing-bg {
+  background: url(../public/images/home-background.jpeg);
+  background-size: Cover;
+  background-repeat: repeat;
+}
+
+.stretch {
+  min-width:100%; width:auto;
+}
+
+.edituser-bg {
+  background: #6190E8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*footer*/
+/* unvisited link */
+.ui.link.list a.item {
+  color: #def2f1 !important;
+}
+
+/* visited link */
+.ui.link.list a.item:hover {
+  color: #3aafa9 !important;
+}
+
+/* mouse over link */
+.ui.link.list .item a:not(.ui){
+  color: #def2f1 !important;
+}
+
+/* mouse over link */
+.ui.link.list .item a:not(.ui):hover{
+  color: #3aafa9 !important;
+}
+
+.ui[class*="vertically divided"].grid > .row{
+  color: #2b7a78 !important;
+}
+
+.ui.grid.container{
+  align: center !important;
+
+}
+.admin-bg {
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding-top: 70px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
