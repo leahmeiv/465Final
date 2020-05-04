@@ -35,6 +35,7 @@ class NavBar extends React.Component {
           <Image size='medium' src={'images/menu-logo.png'} />
         </Menu.Item>
         <Menu.Item as={NavLink} activeClassName="active" exact to="/about" key='add'>About Us</Menu.Item>
+        <Menu.Item activeClassName="active" href="https://github.com/leahmeiv/465Final/blob/master/index.md" key='add'>Tutorial</Menu.Item>
 
         {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
           <Menu.Item as={NavLink} activeClassName="active" exact to="/admin/userlist" key='admin'>Users</Menu.Item>
@@ -59,8 +60,8 @@ class NavBar extends React.Component {
           ) : (
             <Dropdown text={this.props.currentUser} pointing="top right" icon={'user'}>
               <Dropdown.Menu>
-                <Dropdown.Item icon="sign out" text="Sign Out" as={NavLink} exact to="/signout"/>
                 <Dropdown.Item icon="sign out" text="Edit Profile" as={NavLink} exact to={`/editprofile/${this.findProfile()}`}/>
+                <Dropdown.Item icon="sign out" text="Sign Out" as={NavLink} exact to="/signout"/>
               </Dropdown.Menu>
             </Dropdown>
           )}
