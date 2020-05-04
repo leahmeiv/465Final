@@ -71,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/imports/ui/components/Footer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
+            <state relative-caret-position="451">
+              <caret line="58" column="112" lean-forward="true" selection-start-line="58" selection-start-column="112" selection-end-line="58" selection-end-column="112" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -483,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/imports/ui/components/Footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
+        <state relative-caret-position="451">
+          <caret line="58" column="112" lean-forward="true" selection-start-line="58" selection-start-column="112" selection-end-line="58" selection-end-column="112" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
