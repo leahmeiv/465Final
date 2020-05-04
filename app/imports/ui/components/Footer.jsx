@@ -47,7 +47,7 @@ class Footer extends React.Component {
                 <List.Item as='a' href={'https://github.com/leahmeiv/465Final'}>
                   <Image src={'images/github-logo.png'}/>
 
-                  Github Repository</List.Item>
+                   Github Repository</List.Item>
               </List>
             </Grid.Column>
 
