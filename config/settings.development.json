@@ -1,4 +1,11 @@
 {
+
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb+srv://BBadmin:AOyj2tX1AaVWtxaI@cluster0-l4ijq.mongodb.net/test?retryWrites=true&w=majority"
+    }
+  },
+
   "defaultAccounts": [
     {
       "firstname": "BB",

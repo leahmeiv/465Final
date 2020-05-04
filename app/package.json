@@ -8,6 +8,7 @@
     "graphql": "^14.5.8",
     "images": "^3.0.2",
     "meteor-node-stubs": "^0.4.1",
+    "package": "^1.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-addons-pure-render-mixin": "^15.6.2",
