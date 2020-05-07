@@ -57,6 +57,4 @@ meteor npm install --save [name-of-dependency]
 # Links
 [Github Repo](https://github.com/leahmeiv/465Final)  
 [Final Documentation File](https://github.com/leahmeiv/465Final/blob/master/README.md)  
-[Final Release]()  
-[Wiki Page](https://github.com/leahmeiv/465Final/wiki)  
 [Deployed Page](http://budgetbuddy.meteorapp.com)  
