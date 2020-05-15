@@ -16,6 +16,11 @@ const formSchema = new SimpleSchema({
   amount: Number,
 });
 
+const buttonStyle= {
+  textAlign: 'center',
+  paddingTop:'15px'
+};
+
 /** A simple static component to render some text for the landing page. */
 class BudgetDash extends React.Component {
 
@@ -48,6 +53,7 @@ class BudgetDash extends React.Component {
   }
 
   render() {
+
     return (this.props.ready) ? this.renderPage() : <Loader active>Getting data</Loader>;
   }
 
@@ -56,17 +62,17 @@ class BudgetDash extends React.Component {
     let fRef = null;
 
     return (
-      <Container className="expenses-bg" fluid>
+      <Container  className="expenses-bg" fluid>
         <Grid columns={2} divided centered padded>
-          <Grid.Column width={8} centered>
-            <Header as="h2" textAlign="center" inverted>How much have you spent?</Header>
+          <Grid.Column width={'6'} centered>
+            <Header as="h1" textAlign="center" inverted>Expenses</Header>
             <Grid.Row>
               <Table celled defintion>
                 <Table.Header>
-                  <Table.Row>
+                  <Table.Row textAlign="center">
+                    <Table.HeaderCell >Item</Table.HeaderCell>
+                    <Table.HeaderCell><Icon name='dollar sign'/></Table.HeaderCell>
                     <Table.HeaderCell />
-                    <Table.HeaderCell>Expense Name</Table.HeaderCell>
-                    <Table.HeaderCell><Icon name='dollar sign'/>Cost</Table.HeaderCell>
                   </Table.Row>
                 </Table.Header>
                 <Table.Body>
@@ -74,8 +80,9 @@ class BudgetDash extends React.Component {
                 </Table.Body>
               </Table>
             </Grid.Row>
-            <Grid.Row>
-              <Modal trigger={<Button>Add New Expense</Button>}>
+            <Grid.Row style={buttonStyle} >
+              <Modal trigger={<Button secondary >Add Expense</Button>}>
+
                 <Modal.Content>
                   <Grid container centered>
                     <Grid.Column>
@@ -93,7 +100,14 @@ class BudgetDash extends React.Component {
               </Modal></Grid.Row>
           </Grid.Column>
           <Grid.Column>
-            <Header as='h1' inverted textAlign="center">Current Budget: </Header>
+            <Header as='h1' inverted textAlign="center">Budget </Header>
+            <Segment>
+              <Header as={'h3'}>
+                <div> Remaining Budget: ${this.budgetLeft(this.props.user.budget,this.expenseTotal())}
+                </div>
+              </Header>
+            </Segment>
+
             <Segment placeholder>
               <Grid columns={2} stackable textAlign='center'>
                 <Divider vertical>VS</Divider>
@@ -102,21 +116,23 @@ class BudgetDash extends React.Component {
                   <Grid.Column>
                     <Grid.Row>
                       <Header>
+                        <Icon name='money bill alternate outline'  />
                         Set Budget
-                        <Icon name='money bill alternate outline' />
                       </Header>
                     </Grid.Row>
+
                     <Grid.Row>
                       <Header as='h2' textAlign="center">
                         <div> ${this.props.user.budget} </div>
                       </Header>
                     </Grid.Row>
+
                   </Grid.Column>
 
                   <Grid.Column>
                     <Grid.Row>
                       <Header>
-                        Spent <Icon name='shopping bag' />
+                        <Icon name='shopping bag'/>Spent
                       </Header>
                     </Grid.Row>
                     <Grid.Row>
@@ -127,15 +143,6 @@ class BudgetDash extends React.Component {
                   </Grid.Column>
                 </Grid.Row>
               </Grid>
-            </Segment>
-            <Segment>
-              <Header>
-                <div>
-                  Remaining Budget: ${this.budgetLeft(this.props.user.budget,this.expenseTotal())}
-                </div>
-              </Header>
-              <Header as='h2' textAlign="center">
-              </Header>
             </Segment>
           </Grid.Column>
         </Grid>

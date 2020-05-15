@@ -69,19 +69,19 @@ class Signup extends React.Component {
                       type="String"
                       onChange={this.handleChange}
                     />
-
+                    <Form.Input
+                        label="Email"
+                        icon="user"
+                        iconPosition="left"
+                        name="email"
+                        type="email"
+                        placeholder="E-mail address"
+                        onChange={this.handleChange}
+                    />
                   </Grid.Column>
 
                   <Grid.Column width={8}>
-                <Form.Input
-                  label="Email"
-                  icon="user"
-                  iconPosition="left"
-                  name="email"
-                  type="email"
-                  placeholder="E-mail address"
-                  onChange={this.handleChange}
-                />
+
                 <Form.Input
                   label="Password"
                   icon="lock"
