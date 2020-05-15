@@ -36,17 +36,14 @@ class Footer extends React.Component {
             <Grid.Column>
               <b>Need Help?</b>
               <List link className="ui link list">
-                <List.Item href='https://github.com/leahmeiv/465Final/blob/master/index.md' as='a'>Tutorial</List.Item>
+                <List.Item href='https://github.com/leahmeiv/465Final/blob/master/README.md' as='a'>Tutorial</List.Item>
               </List>
             </Grid.Column>
 
             <Grid.Column>
               <b>Connect</b>
               <List link className="ui link list">
-                <List.Item as='a' href={'https://github.com/leahmeiv/465Final'}>
-                  <Image src={'images/github-logo.png'}/>
-
-                   Github Repository</List.Item>
+                <List.Item as='a' href={'https://docs.google.com/document/d/1rAftj7ADY67nApIRU6MXoge3V6ANu0djiUSXtnOU73E/edit'}>Important Links </List.Item>
               </List>
             </Grid.Column>
 

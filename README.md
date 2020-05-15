@@ -3,7 +3,7 @@ Note: Initilization of meteor-application-template-react was used for our app in
 
 ## Installation
 
-For instructions on installation go to our go to [README.md](https://github.com/leahmeiv/465Final/blob/master/README.md).
+For instructions on installation go to our go to [index.md](https://github.com/leahmeiv/465Final/blob/master/index.md).
 
 ## Walkthrough
 
