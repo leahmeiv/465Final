@@ -24,7 +24,13 @@ const buttonStyle= {
 /** A simple static component to render some text for the landing page. */
 class BudgetDash extends React.Component {
 
-  /** On submit, insert the data. */
+  /** submit(data, formRef) 
+      Send the data to Meteor to be stored.
+      params: data (amount of money spent)
+              formRef (reference to the form)
+      return: If error, return error message
+              If success, reset the form and return success message
+  */
   submit(data, formRef) {
     const { name, amount} = data;
     const owner = Meteor.user().username;
@@ -38,7 +44,12 @@ class BudgetDash extends React.Component {
         }
       });
   }
-
+  
+  /** ExpenseTotal()
+      Calculate the total spent
+      params: none
+      return: new total
+  */
   expenseTotal() {
     let total = 0;
     for (let i = 0; i < this.props.expense.length; i++) {
@@ -46,7 +57,12 @@ class BudgetDash extends React.Component {
     }
     return total.toFixed(2);
   }
-
+  
+  /** budgetLeft(budget, spent)
+      Calculate what is left of a user's budget
+      params: budget (the user's current budget)
+              spent (user's submitted expense)
+  */
   budgetLeft(budget, spent) {
       let total = budget-spent;
     return total.toFixed(2);
