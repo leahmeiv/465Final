@@ -36,7 +36,6 @@ class Footer extends React.Component {
             <Grid.Column>
               <b>Need Help?</b>
               <List link className="ui link list">
-                <List.Item href='https://github.com/leahmeiv/465Final/blob/master/README.md' as='a'>Installation</List.Item>
                 <List.Item href='https://github.com/leahmeiv/465Final/blob/master/index.md' as='a'>Tutorial</List.Item>
               </List>
             </Grid.Column>

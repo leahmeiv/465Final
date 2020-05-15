@@ -25,7 +25,7 @@ class NavBar extends React.Component {
     return '';
   }
   render() {
-    const menuStyle = { marginBottom: '10px' };
+    const menuStyle = { marginBottom: '1px' };
     return (
       <div>
       {this.props.currentUser !== '' ? (
@@ -60,7 +60,7 @@ class NavBar extends React.Component {
           ) : (
             <Dropdown text={this.props.currentUser} pointing="top right" icon={'user'}>
               <Dropdown.Menu>
-                <Dropdown.Item icon="sign out" text="Edit Profile" as={NavLink} exact to={`/editprofile/${this.findProfile()}`}/>
+                <Dropdown.Item icon="pencil" text="Edit Profile" as={NavLink} exact to={`/editprofile/${this.findProfile()}`}/>
                 <Dropdown.Item icon="sign out" text="Sign Out" as={NavLink} exact to="/signout"/>
               </Dropdown.Menu>
             </Dropdown>

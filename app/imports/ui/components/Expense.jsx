@@ -7,6 +7,8 @@ import { Expenses } from '../../api/expenses/expenses';
 
 /** Renders a single row in the Expenses table */
 export class Expense extends React.Component {
+
+
   constructor(props) {
     super(props);
     this.onClick = this.onClick.bind(this);
@@ -31,14 +33,15 @@ export class Expense extends React.Component {
   render() {
     return (
       <Table.Row>
-        <Table.Cell>
-          <Button onClick={this.onClick} icon>
+        <Table.Cell textAlign={'center'}>{this.props.expense.name}</Table.Cell>
+        <Table.Cell textAlign={'center'}>{this.props.expense.amount}</Table.Cell>
+        <Table.Cell textAlign={'center'}>
+          <Button basic onClick={this.onClick} icon>
             <Icon name='trash' />
           </Button>
         </Table.Cell>
-        <Table.Cell>{this.props.expense.name}</Table.Cell>
-        <Table.Cell>{this.props.expense.amount}</Table.Cell>
       </Table.Row>
+
     );
   }
 }
