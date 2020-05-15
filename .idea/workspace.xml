@@ -12,7 +12,7 @@
     <session id="-1245488124">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="2" />
@@ -71,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/imports/ui/components/Footer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="58" column="112" lean-forward="true" selection-start-line="58" selection-start-column="112" selection-end-line="58" selection-end-column="112" />
+            <state relative-caret-position="480">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -185,10 +185,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="134" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="974" />
     <option name="y" value="23" />
-    <option name="width" value="1306" />
+    <option name="width" value="466" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -483,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/imports/ui/components/Footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="58" column="112" lean-forward="true" selection-start-line="58" selection-start-column="112" selection-end-line="58" selection-end-column="112" />
+        <state relative-caret-position="480">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
