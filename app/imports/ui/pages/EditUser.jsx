@@ -11,7 +11,11 @@ import { User, UserSchema } from '../../api/user/user';
 /** Renders the Page for editing a single document. */
 class EditUser extends React.Component {
 
-  /** On successful submit, insert the data. */
+  /** submit(data)
+      Update the user's information (first name, last name, budget)
+      return: success ( return success message)
+              error   ( return error message)
+  */
   submit(data) {
     const { firstName, lastName, budget, owner, _id } = data;
     User.update(_id, { $set: { firstName, lastName, budget, owner} }, (error) => (error ?
